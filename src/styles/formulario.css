@@ -1,0 +1,63 @@
+/* Paleta de Colores para la App y Fuente */
+:root{
+    --color-base : #222831;
+    --color-gris : #5e5f61b9;
+    --color-azul : #00adb5;
+    --color-blanco : #eeeeee;
+
+    --font-title : 'Wendy One', sans-serif;
+    --font : 'PT Sans Caption', sans-serif;
+}
+
+/* Hoja de estilos para el componente formulario.js */
+
+.form{
+    height: 240px;
+    font-family: var(--font); 
+    background-color: var(--color-gris);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.divs{
+    width: 460px;
+    height: 35px;
+    background-color: var(--color-blanco); 
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(102, 96, 96);
+}
+
+.divs label{
+    flex: 0 0 250px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.select{
+    font-family: var(--font);
+    font-size: 15px;
+    width: 11rem;
+    height: 1.5rem;
+    border-radius: 3px;
+}
+
+.button{
+    font-family: var(--font);
+    font-size: 18px;
+    width: 16rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: black 2px 2px 3px 3px ;
+}
+
+.button:hover{
+    background-color: gray;
+    transition: 3seg;
+}

@@ -1,0 +1,33 @@
+/* Paleta de Colores para la App y Fuente */
+:root{
+    --color-base : #222831;
+    --color-gris : #5e5f61b9;
+    --color-azul : #00adb5;
+    --color-blanco : #eeeeee;
+
+    --font-title : 'Wendy One', sans-serif;
+    --font : 'PT Sans Caption', sans-serif;
+}
+
+/*  */
+
+.sumary{
+    height: 225px;
+    background-color: var(--color-azul);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sumary-title{
+    font-family: var(--font-title);
+    font-size: 25px;
+    margin-bottom: 2rem;
+    border-bottom: 5px dotted black;
+}
+
+.text{
+    font-family: var(--font);
+    margin: 0;
+}
